@@ -31,7 +31,9 @@ class MainFragment : Fragment() {
 
     private fun setupListeners() {
         binding.txtMain.setOnClickListener {
-            findNavController().navigate(MainFragmentDirections.actionMainFragmentToSecondFragment())
+            findNavController().navigate(MainFragmentDirections.actionMainFragmentToSecondFragment(
+                "sgsrgwrg"
+            ))
         }
     }
 

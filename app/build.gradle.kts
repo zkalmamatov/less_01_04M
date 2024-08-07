@@ -3,7 +3,7 @@ import org.gradle.configurationcache.serialization.codecs.Binding
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("androidx.navigation.safeargs")
+    id("androidx.navigation.safeargs.kotlin")
 
 }
 
